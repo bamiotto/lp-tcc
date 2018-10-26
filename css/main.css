@@ -755,3 +755,19 @@ margin: 5% 5%;
 	margin: 0;
 	padding: 0;
 }
+.cadeira{
+	background-image:url('../img/cadeira.png');
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: -webkit-fill-available;
+	background-attachment: fixed;
+	/* max-height: 640px; */
+	width: 100%;
+	/* position: absolute; */
+	overflow: hidden;
+	/* margin: 0; */
+	/* padding: 0 0 100% 0; */
+	z-index: 999999;
+	background-color: #fff;
+}
