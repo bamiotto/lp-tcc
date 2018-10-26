@@ -25,7 +25,7 @@ h2{
 	text-align: center;
 	background-color: transparent;
 	margin: 10% 10%;
-	line-height: 56px;
+	line-height: 72px;
 	letter-spacing: 0.5px;
 }
 
@@ -118,6 +118,10 @@ ul#top-menu .active{
 
 .white{
 	color: #fff;
+}
+
+.orange{
+	color: #ff8a65;
 }
 
 /*index*/
@@ -757,17 +761,35 @@ margin: 5% 5%;
 }
 .cadeira{
 	background-image:url('../img/cadeira.png');
-	background-size: 50% auto;
+	background-size: auto 51%;
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: bottom left;
+	/* background-clip:content-box; */
 	height: -webkit-fill-available;
 	background-attachment: fixed;
 	/* max-height: 640px; */
 	width: 100%;
-	/* position: absolute; */
+	position: absolute;
 	overflow: hidden;
-	/* margin: 0; */
-	/* padding: 0 0 100% 0; */
+	margin: 0;
+	padding: 0 0 0 0;
 	z-index: 999999;
 	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+.margin{
+	padding: 20% 10%;
+}
+
+.cadeira img{
+	position: relative;
+	width: 30%;
+	height: auto;
+	margin-left: 50%;
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
